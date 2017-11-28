@@ -1,0 +1,3 @@
+1         iphone         ele            7000.00             20        
+2         iPad           ele            3000.00             50        
+3         iMac           ele            18000.00            10        

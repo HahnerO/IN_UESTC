@@ -1,0 +1,5 @@
+ID	NAME		CATEGORY	PRICE		STOCK
+1         iPad           ele            3000.00             50        
+2         iphone         ele            7000.00             20        
+3         iMac           ele            18000.00            10        
+4         itouch         ele            1400.00             100       
