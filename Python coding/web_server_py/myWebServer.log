@@ -1,0 +1,14 @@
+Tue, 01 May 2018 22:01:56 web_server.py[line:24] INFO Socket established, now listening to the connection request.
+Tue, 01 May 2018 22:02:01 web_server.py[line:32] INFO Listened to the User from (ip: 127.0.0.1, port: 58983)
+Tue, 01 May 2018 22:02:01 web_server.py[line:33] INFO And the msg is GET / HTTP/1.1
+Host: localhost:8888
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+Cookie: Pycharm-f9de1811=491c23da-2a65-4449-b5f3-eb3f713ac05d
+User-Agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_4) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1 Safari/605.1.15
+Accept-Language: zh-cn
+Accept-Encoding: gzip, deflate
+Connection: keep-alive
+
+
+Tue, 01 May 2018 22:02:01 web_server.py[line:42] INFO The page which User need is in path : pages/.html
