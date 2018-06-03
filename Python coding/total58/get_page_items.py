@@ -103,7 +103,23 @@ def get_item_info(url):
     #     # print(url)
     # print(url)
 
-# pre_modify_item_info()
+# def pre_modify_item_info():
+#     for item in item_info.find():
+#         title = item.get('title')
+#         area = item.get('area')
+#         city = item.get('city')
+#
+#         old_price = item.get('old_price')
+#         if title is None or title.strip() == '':
+#             item_info.delete_one({'_id': item.get('_id')})
+#         else:
+#             if area is None or area.strip() == '' or area == city or city in area:
+#                 item_info.update_one({'_id': item.get('_id')}, {'$set': {'area': '不明'}})
+#             if old_price is None:
+#                 item_info.update_one({'_id': item.get('_id')}, {'$set': {'old_price': '不明'}})
+#     return
+
+pre_modify_item_info()
 
 # for item in item_info.find():
 #     print(item)
