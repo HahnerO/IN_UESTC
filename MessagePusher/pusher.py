@@ -53,6 +53,7 @@ class PusherBuilder(object):
 
     def get_url(self):
         print(self.url)
+        return self.url
 
     def set_priority(self, priority):
         while True:
