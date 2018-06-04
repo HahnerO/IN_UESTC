@@ -1,3 +1,3 @@
 # IN_UESTC
-//my cede life in uestc
+//my code life in uestc
 //as a beginner
