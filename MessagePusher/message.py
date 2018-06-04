@@ -1,4 +1,8 @@
-# this func should be custom by user
+# !/usr/bin/python
+# -*- coding: utf-8 -*-
+__author__ = 'Hahn(HahnerO@163.com)'
+
+# This class should be custom by user
 
 
 class MessageMaker(object):
@@ -10,30 +14,17 @@ class MessageMaker(object):
     # pre-process the text
     def __init__(self):
         self.text = ''
-        self.message = ''
+        self.content = ''
         self.title = ''
 
     def input_text(self, text):
         self.text = text
         return self
 
-    def get_message(self):
-        # get message
-        return self.message
+    def get_content(self):
+        # get content
+        return self.content
 
     def get_title(self):
         # get title
-        return self.title
-
-
-class MMTest1(MessageMaker):
-    """
-    This class is a extend example
-    """
-    def get_message(self):
-        self.message = self.text
-        return self.message
-
-    def get_title(self):
-        self.title = 'New title'
         return self.title

@@ -1,4 +1,7 @@
+# !/usr/bin/python
 # -*- coding: utf-8 -*-
+__author__ = 'Hahn(HahnerO@163.com)'
+
 import requests
 
 sdr_rsv_me = ''
@@ -34,6 +37,7 @@ class PusherBuilder(object):
 
     def get_title(self):
         print(self.title)
+        return self.title
 
     def set_content(self, content):
         self.content = content
@@ -41,6 +45,7 @@ class PusherBuilder(object):
 
     def get_content(self):
         print(self.content)
+        return self.content
 
     def set_url(self, url):
         self.url = url
@@ -66,6 +71,7 @@ class PusherBuilder(object):
             print('Normal')
         else:
             print('Urgent')
+        return self.priority
 
     def set_source(self, source):
         self.source = source
@@ -73,6 +79,7 @@ class PusherBuilder(object):
 
     def get_source(self):
         print(self.source)
+        return self.source
 
     def set_receiver(self, receiver):
         self.receiver = receiver
@@ -80,6 +87,7 @@ class PusherBuilder(object):
 
     def get_receiver(self):
         print(self.receiver)
+        return self.receiver
 
     def push(self):
         requests.post("https://api.alertover.com/v1/alert",
