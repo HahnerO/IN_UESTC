@@ -10,6 +10,11 @@ from message import MessageMaker
 
 
 def send_message():
-    pass
+    p = PusherBuilder()
+    p.log_on()
+    p.set_title('test_class').set_content('hahahahaha').set_url('www.baidu.com').set_priority(0)
+    # p.set_sender('s-158d9935-8363-4b13-bdab-70bb7db8')
+    p.push()
 
-# send_message()
+
+send_message()

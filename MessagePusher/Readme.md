@@ -6,12 +6,14 @@ Copyright: @TopO @Hahn 2018-
  - Based on app Alertover, if you don't have it, download and sign up first
  - If you think this package is not really effective contact me please
 
-### 3 python file inside
+### 4 python file inside
  - ***pusher.py***
  - ***message.py***
  - ***push_logy.py***
+ - ***config.py***
 
 ## The commended usage:
+ - Set basic config in config first
  - Write your own listen port/event/param func in push_logy
  - Import PusherBuilder and MessageMaker
  - Custom your own message builder by extends or write a new one
